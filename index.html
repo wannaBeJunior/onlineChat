@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="assets/styles/styles.css" rel="stylesheet">
+    <title>Онлайн чат организации ООО "Организация"</title>
+</head>
+<body>
+<div class="container-fluid">
+    <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+        <a href="index.html" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
+            <img src="assets/imgs/logo.png" class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap">
+        </a>
+
+        <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+            <li><a href="index.html" class="nav-link px-2 link-dark">Главная</a></li>
+            <li><a href="notifications.html" class="nav-link px-2 link-dark">Уведомления</a></li>
+            <li><a href="faq.html" class="nav-link px-2 link-dark">FAQs</a></li>
+            <li><a href="about.html" class="nav-link px-2 link-dark">О чате</a></li>
+        </ul>
+
+        <div class="col-md-3 text-end">
+            <button type="button" class="btn btn-outline-primary me-2">Выйти</button>
+        </div>
+    </header>
+    <div class="container-fluid d-flex">
+        <div class="container col-md-4 col-lg-4 col-sm-3 border border-2 p-0 overflow-auto">
+            <div class="container-fluid">
+                <a href="#" class="text-decoration-none link-dark">
+                    <div class="container p-2 d-flex">
+                            <img src="assets/imgs/avatar.svg" alt="..." class="rounded-circle">
+                            <div class="container">
+                                <h6>Иванов Иван (отдел веб-разработки)</h6>
+                                <p class="m-0">Привет! Давно не виделись в офисе.</p>
+                            </div>
+                    </div>
+                </a>
+                <a href="#" class="text-decoration-none link-dark">
+                    <div class="container p-2 d-flex">
+                        <img src="assets/imgs/avatar.svg" alt="..." class="rounded-circle">
+                        <div class="container">
+                            <h6>Степанов Степан (отдел интранет систем)</h6>
+                            <p class="m-0">Подскажи, когда у нас будет планерка...</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="text-decoration-none link-dark">
+                    <div class="container p-2 d-flex">
+                        <img src="assets/imgs/avatar.svg" alt="..." class="rounded-circle">
+                        <div class="container">
+                            <h6>Сидоров Алексей (отдел веб-разработки)</h6>
+                            <p class="m-0">Поздравляю с повышением коллега!...</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="text-decoration-none link-dark">
+                    <div class="container p-2 d-flex">
+                        <img src="assets/imgs/avatar.svg" alt="..." class="rounded-circle">
+                        <div class="container">
+                            <h6>Чат отдела разработки</h6>
+                            <p class="m-0">Коллеги, сегодня в 12 планерка в зуме...</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="text-decoration-none link-dark">
+                    <div class="container p-2 d-flex">
+                        <img src="assets/imgs/avatar.svg" alt="..." class="rounded-circle">
+                        <div class="container">
+                            <h6>Общий чат</h6>
+                            <p class="m-0">Признавайтесь, кто съел мои печеньки...</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="text-decoration-none link-dark">
+                    <div class="container p-2 d-flex">
+                        <img src="assets/imgs/avatar.svg" alt="..." class="rounded-circle">
+                        <div class="container">
+                            <h6>Иванов Иван (отдел веб-разработки)</h6>
+                            <p class="m-0">Привет! Давно не виделись в офисе.</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="text-decoration-none link-dark">
+                    <div class="container p-2 d-flex">
+                        <img src="assets/imgs/avatar.svg" alt="..." class="rounded-circle">
+                        <div class="container">
+                            <h6>Иванов Иван (отдел веб-разработки)</h6>
+                            <p class="m-0">Привет! Давно не виделись в офисе.</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="text-decoration-none link-dark">
+                    <div class="container p-2 d-flex">
+                        <img src="assets/imgs/avatar.svg" alt="..." class="rounded-circle">
+                        <div class="container">
+                            <h6>Иванов Иван (отдел веб-разработки)</h6>
+                            <p class="m-0">Привет! Давно не виделись в офисе.</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="container col-md-7 col-lg-7 col-sm-9 border d-flex flex-column-reverse p-0">
+            <div class="container-fluid">
+                <h5>Общий чат</h5>
+            </div>
+            <div class="container-fluid mb-3">
+                <form>
+                    <div class="form-group">
+                        <label for="message">Введите сообщение</label>
+                        <textarea class="form-control" id="message" rows="3" placeholder="Ваше сообщение..."></textarea>
+                    </div>
+                </form>
+            </div>
+            <div class="container-fluid p-0">
+                <div class="container d-flex">
+                    <div class="container p-0" style="width: 40px; height: 40px">
+                        <img src="http://dummyimage.com/40" alt="..." class="rounded-circle">
+                    </div>
+                    <div class="container d-flex flex-column justify-content-center">
+                        <h6>Иван Иванов</h6>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                </div>
+                <div class="container d-flex">
+                    <div class="container p-0" style="width: 40px; height: 40px">
+                        <img src="http://dummyimage.com/40" alt="..." class="rounded-circle">
+                    </div>
+                    <div class="container d-flex flex-column justify-content-center">
+                        <h6>Степанов Степан</h6>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit </p>
+                    </div>
+                </div>
+                <div class="container d-flex">
+                    <div class="container p-0" style="width: 40px; height: 40px">
+                        <img src="http://dummyimage.com/40" alt="..." class="rounded-circle">
+                    </div>
+                    <div class="container d-flex flex-column justify-content-center">
+                        <h6>Сидоров Алексей</h6>
+                        <p>Зачем вы отправляете в чат Lorem ipsum???</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="text-muted py-5">
+        <div class="container">
+            <p class="float-end mb-1">
+                <a href="#">Наверх</a>
+            </p>
+            <p class="mb-1">Онлайн чат организации ООО "Организация"</p>
+            <p class="mb-0">Все часто задаваемые вопросы доступны на странице <a href="faq.html">FAQ</a>.</p>
+        </div>
+    </footer>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
